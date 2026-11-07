@@ -1,0 +1,20 @@
+{
+    "name": "school-portal",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.portal",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "school.people"
+    ],
+    "exposes": [
+        "Plugins\\SchoolPortal\\API\\Contracts\\SchoolPortalContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "The parent and pupil space: profile, bulletins, receipts, payment methods and delay requests.",
+    "config": []
+}
